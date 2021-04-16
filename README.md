@@ -4,6 +4,7 @@
 Inclui também 2 componentes descrevendo a função da aplicação, e outro com uma mensagem sobre mim.<br/>
 Utilizei Typescript, Html, Javascript e Css, e pude obter conhecimentos tal como criar um CRUD genérico, incluir popup, utilizar alertmodal, trabalhar com bootstrap, e entre outros.<br/>
 (OBS: Gostaria de trabalhar mais aplicações nele, como datas, categorias, mas infelizmente não posso devido ao prazo do BootCamp, pois concilio meus estudos com um emprego de domingo a domingo. </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jtk-Ru_7tv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <a href="https://github.com/vcfooficial/listagem-planejamento"/>
     <img src="https://raw.githubusercontent.com/vcfooficial/listagem-planejamento/master/snapshot-my-project.png"/>
 </a>
