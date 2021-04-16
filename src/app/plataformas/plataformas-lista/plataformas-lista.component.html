@@ -1,0 +1,59 @@
+<div class="card mt-3">
+    <div class="card-header">
+      <div class="float-left">
+        <h4>Planos</h4>
+      </div>
+      <div class="float-right">
+        <button type="button" class="btn btn-primary" [routerLink]="['novo']" >Registrar uma plano</button> <!--[routerLink]="['novo']"-->
+        <button type="button" class="btn btn-secondary" (click)="onRefresh()"> Atualizar</button> <!-- (click)="onRefresh()" -->
+      </div>
+    </div>
+    <div class="card-body">
+      <!--*ngIf="(cursos$ | async) as cursos; else loading"-->
+      <table class="table table-hover" *ngIf="(plataformas$ | async) as plataformas; else loading" >
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Descrição</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let plataforma of plataformas"> <!-- *ngFor="let curso of cursos" -->
+            <td>{{ plataforma.id }}</td> <!-- {{ curso.id }} -->
+            <td> {{ plataforma.nome }} </td> <!-- {{ curso.nome }} -->
+            <td>
+              <span class="float-right">
+                <button class="btn btn-outline-warning mb-1 btn-sm" (click)="onEdit(plataforma.id)"> <!-- (click)="onEdit(curso.id)"> -->
+                  Atualizar
+                </button>
+
+                <button class="btn btn-outline-danger mb-1 btn-sm" (click)="onDelete(plataforma)"><!-- (click)="onDelete(curso)"> -->
+                  Remover
+                </button>
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <ng-template #loading>
+        <span>Carregando Plataformas...</span>
+      </ng-template>
+
+      <!--ng-template #loadingError>
+        <div *ngIf="error$ | async; else loading" >
+          Erro ao carregar cursos. Tente novamente mais tarde.
+        </div>
+        <ng-template #loading>
+        <span>Carregando Plataformas...</span>
+      </ng-template> -->
+    </div>
+  </div>
+
+  <ng-template #deleteModal>
+    <div class="modal-body text-center">
+      <p>Deseja remover este item dos seus planos?</p>
+      <button type="button" class="btn btn-default" (click)="onConfirmDelete()"> <!-- (click)="onConfirmDelete()" -->Sim</button>
+      <button type="button" class="btn btn-primary" (click)="onDeclineDelete()"> <!-- (click)="onDeclineDelete()"-->Nao</button>
+    </div>
+  </ng-template>

@@ -1,0 +1,20 @@
+{
+  "plataformas": [
+    {
+      "id": 1,
+      "nome": "Trabalhar como Desenvolvedor Web! #Sonho"
+    },
+    {
+      "id": 2,
+      "nome": "Me matricular no curso de Análise e Desenvolvimento de Sistemas"
+    },
+    {
+      "id": 3,
+      "nome": "Contratar um plano de saúde para o meu filho."
+    },
+    {
+      "id": 4,
+      "nome": "Me tornar um profissional influenciador."
+    }
+  ]
+}

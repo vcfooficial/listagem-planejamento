@@ -1,0 +1,16 @@
+http://localhost:3000/plataformas
+
+###
+
+http://localhost:3000/plataformas/2
+
+
+###
+
+
+DELETE http://localhost:3000/plataformas HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "BRAID"
+}

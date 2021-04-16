@@ -1,27 +1,9 @@
-# RequestsHttp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h1> Listagem de planejamentos. </h1>
+<h3> Descrição:</h3>
+<p> Fiz uma aplicação Angular simulando uma Listagem de planejamentos, e nele é possível exibir uma lista onde o usuário pode atualizar, cadastrar, remover.
+Inclui também 2 componentes descrevendo a função da aplicação, e outro com uma mensagem sobre mim.
+Utilizei Typescript, Html, Javascript e Css, e pude obter conhecimentos tal como criar um CRUD genérico, incluir popup, utilizar alertmodal, trabalhar com bootstrap, e entre outros.
+(OBS: Gostaria de trabalhar mais aplicações nele, como datas, categorias, mas infelizmente não posso devido ao prazo do BootCamp, pois concilio meus estudos com um emprego de domingo a domingo. </p>
+<a href="https://github.com/JuliaMartins97/plannerangular"/>
+    <img src="https://github.com/JuliaMartins97/plannerangular/blob/master/src/paginaplanner.PNG"/>
+</a>
